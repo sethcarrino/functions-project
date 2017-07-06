@@ -123,6 +123,8 @@ console.log(greet("Hercules"));
 // Then, write and example of using the function.
 
 
-function madlib(){
-  
+function madlib(word1, word2, word3){
+  return word1 + " " + "brown" + " " + word2 + " " + "jumps over the" + " " + word3
 }
+
+console.log(madlib("quick", "fox", "fence"));
